@@ -66,7 +66,7 @@ app.get('/',(req,res)=>{
                 }else{
                     file.isImage=false
                 }
-            })
+            }) 
         }
         res.render('index',{files:files})
     })
